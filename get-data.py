@@ -126,7 +126,7 @@ def preencherArquivoCSV(enderecosProcessados, nomeArquivo):
             data = endereco.rowFormat()
             thewriter.writerow(data)
             exibir_progresso(i, totalLinhas)
-            time.sleep(0.02)  # Apenas para simular um preenchimento lento
+            time.sleep(0.002)  # Apenas para simular um preenchimento lento
 
 
 nomeArquivo = 'dataset.csv'
